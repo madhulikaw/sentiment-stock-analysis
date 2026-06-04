@@ -79,6 +79,7 @@ An unconstrained baseline model hits an ineffective 50.00% random walk accuracy 
 
 ### Feature Importance Hierarchy
 Through extracting the internal ensemble tree splits, the model mapped the following predictive dependencies:
+![Random Forest Feature Importance Hierarchy](notebooks/feature_importance.png)
 1. **`Yesterday_Posts` (Top Driver - >25% Importance Score)**
 2. `Yesterday_Stock_Volume`
 3. `Reddit_3Day_Hype_Avg`
