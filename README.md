@@ -1,4 +1,3 @@
-# 📈 GME Meme Stock Prediction via Alternative Reddit Sentiment Analysis
 ![GME Prediction Banner](https://capsule-render.vercel.vercel.app/api?type=waving&color=1A365D&height=230&section=header&text=GME%20Meme%20Stock%20Prediction&fontSize=42&fontColor=ffffff&desc=Alternative%20Reddit%20Sentiment%20Analysis&descAlignY=68&descAlign=50)
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
