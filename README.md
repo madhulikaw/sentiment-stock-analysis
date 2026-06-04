@@ -53,6 +53,35 @@ To guarantee the strategy is actionable in a live production environment, **all 
 
 ---
 
+---
+
+## 📊 Sentiment Dynamics & Exploratory Data Analysis (EDA)
+
+Before training the predictive model, a deep dive into the extracted alternative dataset was performed to understand the underlying distributions of retail crowd behavior. 
+
+### Alternative Data Insights Summary
+Aggregating the scraped linguistic text from Reddit and aligning it chronologically revealed clear structural patterns in retail trading momentum:
+
+| Metric Category | Statistical Observation | Real-World Market Meaning |
+| :--- | :--- | :--- |
+| **Average Sentiment Polarity** | `0.125` (Mildly Positive) | The general community tone remains optimistic, characteristic of a passionate retail "HODL" culture. |
+| **Peak Post Volume Day** | > 3x Baseline Average Volume | Massive spikes in community text submissions served as strong leading indicators of rapid retail coordination. |
+| **Correlation Check** | High correlation between Post Volume & Trading Volume | Social chatter volume drove asset liquidity significantly more than the literal positivity/negativity of the text. |
+
+### Visualizing Social Attention Cascades
+The visualization below tracks the sheer velocity of retail crowd engagement, capturing the explosive posting frequency spikes that preceded massive market volatility cycles:
+
+![GME Reddit Posts Per Day Timeline](notebooks/reddit_posts_per_day.png)
+
+### High-Impact Attention Drivers
+To understand what content anchored the crowd's focus, the model isolated the highest-scoring individual text threads by community upvote volume:
+
+![Top 10 GME Posts by Upvote Score](notebooks/top_posts_by_score.png)
+
+> **Key EDA Takeaway:** Traditional financial assets respond heavily to fundamental news. However, for `GME`, price movements are heavily reflective of **social velocity**. When post volume breaks past its moving average, it triggers a cascade of retail buying liquidity, demonstrating that attention capital is a measurable alternative factor.
+
+---
+
 ## 🌲 Machine Learning Modeling & Optimization
 
 ```python
